@@ -1,0 +1,8 @@
+.subscribe button{
+    margin-left: -88px;
+    margin-top: 6px;
+    padding-top: 3px;
+}
+.subscribe input:focus{
+    outline:none;
+}

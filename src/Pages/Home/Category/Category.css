@@ -1,0 +1,16 @@
+.single-category:nth-child(odd){
+    background-color: #FFF3EB ;
+}
+.single-category:nth-child(even){
+    background-color:#ECFFEC;
+}
+.single-category-text h2{
+    color: #000000;
+}
+.single-category-text h2:hover{
+    color: #3BB77E;
+}
+.single-category-text p{
+    color: gray;
+    font-size: 14px;
+}
