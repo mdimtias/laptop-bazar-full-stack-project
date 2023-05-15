@@ -30,7 +30,6 @@ console.log(wishlistProduct)
       }
     );
     const data = await res.json();
-    console.log(data);
     if (data.message === "unauthorized") {
       return navigate("/login");
     }

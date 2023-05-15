@@ -34,7 +34,7 @@ const Shop = () => {
     <div className="container mx-auto py-10">
       <h2 className="font-bold text-3xl py-5">Shop</h2>
       <div className="grid gap-5 mx-0 grid-cols-1 px-5 md:grid-cols-2 lg:px-0 lg:grid-cols-3 xl:grid-cols-4">
-        {products?.data?.map((product) => (
+        {(typeof products?.data === 'object' && Array.isArray(products?.data)) && products?.data?.map((product) => (
           <Product
             key={product._id}
             product={product}
