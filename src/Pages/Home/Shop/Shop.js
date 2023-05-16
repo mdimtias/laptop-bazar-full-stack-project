@@ -8,7 +8,6 @@ import Product from "../Product/Product";
 
 const Shop = () => {
   const [bookingModalData, setBookingModalData] = useState(null);
-  const { name } = useParams();
   const {
     data: products = [],
     isLoading
